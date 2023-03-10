@@ -3,25 +3,20 @@ import Header from "@components/Header";
 import Footer from "@components/Footer";
 import FeedbackForm from "@components/FeedbackForm";
 import JokeBlock from "@components/JokeBlock";
-
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Fosshost v2</title>
+        <title>Next.js Toolbox</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to Fosshost v2" />
+        <Header title="Next.js Toolbox" />
         <hr />
         <p className="description">
-          We are in the process of building a new website.  For now please use the below contact us form if you have any questions.
+          Here's an example of a Netlify Form! When you fill this out, the
+          submissions can be found in the Netlify Admin site.
         </p>
         <FeedbackForm />
         <JokeBlock />
-      </main>
-      <Footer />
-    </div>
-  );
-}
