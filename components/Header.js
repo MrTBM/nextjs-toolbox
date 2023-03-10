@@ -3,10 +3,8 @@ export default function Header({ title }) {
     <>
       <h1 className="title">{title}</h1>
       <p>
-        Welcome to Fosshost v2 👋! This template gives you a{" "}
-        <a href="https://nextjs.org/">Next.js</a> app with the scaffolding for{" "}
-        <a href="https://www.netlify.com/products/functions/">
-          Netlify Functions
+        Welcome to Fosshost v2 👋! Our website is currently under construction.  We are currently accepting applications for bare metal hardware. 
+       
         </a>
         , <a href="https://www.netlify.com/products/forms/">Forms</a>, and{" "}
         <a href="https://docs.netlify.com/routing/redirects/">Redirects</a>. Our
