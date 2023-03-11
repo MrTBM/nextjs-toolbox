@@ -5,7 +5,7 @@ describe('empty spec', () => {
 
   it('displays the resources text', () => {
     cy.get('h1')
-    .contains('Next.js Toolbox');
+    .contains('Fosshost v2');
   })
   it('renders the form', () => {
     cy.get('form')
