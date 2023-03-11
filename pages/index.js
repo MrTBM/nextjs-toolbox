@@ -8,16 +8,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Toolbox</title>
+        <title>Welcome to Fosshost v2</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Next.js Toolbox" />
+        <Header title="Fosshost v2" />
         <hr />
         <p className="description">
-          Here's an example of a Netlify Form! When you fill this out, the
-          submissions can be found in the Netlify Admin site.
+          Welcome to Fosshost v2, we are back.
+          Submissions are now being accepted for bare metal applications.
         </p>
         <FeedbackForm />
         <JokeBlock />
